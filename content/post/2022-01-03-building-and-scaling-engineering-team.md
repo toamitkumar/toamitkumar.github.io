@@ -7,7 +7,7 @@ description: "First article of the series of 5 posts describing the journey to b
 date:       2022-01-03
 author: Amit Kumar
 image: "img/home-bg.jpg"
-published: true
+draft: false
 
 tags:
     - product engineering

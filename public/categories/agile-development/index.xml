@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile Development on Amit Kumar</title>
+    <link>http://localhost:1313/categories/agile-development/</link>
+    <description>Recent content in Agile Development on Amit Kumar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 May 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/agile-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agility and Component Driven Development</title>
+      <link>http://localhost:1313/2012/05/30/guardrail-ed-autonomy/</link>
+      <pubDate>Wed, 30 May 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2012/05/30/guardrail-ed-autonomy/</guid>
+      <description>&lt;p&gt;Agile development has become the backbone of modern software development process. In a nutshell, it can be defined as - &lt;strong&gt;iterative, self-evolving incremental development that demands high collaboration and flexibility to change&lt;/strong&gt;. Component driven development on the other hand augments to building reusable and testable components that be plugged together to form application foundation for delivering business functionality.&lt;/p&gt;&#xA;&lt;p&gt;In our current engagement with Firm Account, they have started providing IT tools/solutions to their clients supplementing the strategic solutions they have been providing so far. They wanted to deliver the solution with rapid-prototyping and rapid-delivery.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

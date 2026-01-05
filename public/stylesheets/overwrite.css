@@ -1,0 +1,23 @@
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #0000004f;
+}
+
+blockquote {
+    border-left: 5px solid #c1c1c1;
+}
+
+.post-preview p.post-meta {
+    font-size: 15px;
+}
+
+.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+    padding: 100px 0;
+}
+
+.intro-header .post-heading .meta {
+    font-size: 18px;
+}

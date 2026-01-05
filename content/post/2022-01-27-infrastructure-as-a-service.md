@@ -7,7 +7,7 @@ description: "Fourth article of the series of 5 posts describing the journey to 
 date:       2022-01-27
 author: Amit Kumar
 image: "img/cloud-iaas.jpg"
-published: true
+draft: false
 
 tags:
     - product engineering

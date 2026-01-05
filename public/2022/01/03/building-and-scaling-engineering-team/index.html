@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Amit Kumar">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="http://localhost:1313//img/home-bg.jpg">
+    <meta property="twitter:image" content="http://localhost:1313//img/home-bg.jpg" />
+    
+
+    
+    <meta name="title" content="Building &amp; scaling Engineering team" />
+    <meta property="og:title" content="Building &amp; scaling Engineering team" />
+    <meta property="twitter:title" content="Building &amp; scaling Engineering team" />
+    
+
+    
+    <meta name="description" content="First article of the series of 5 posts describing the journey to build Product &amp; Engineering for Financial Services">
+    <meta property="og:description" content="First article of the series of 5 posts describing the journey to build Product &amp; Engineering for Financial Services" />
+    <meta property="twitter:description" content="First article of the series of 5 posts describing the journey to build Product &amp; Engineering for Financial Services" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="amit kumar, amitkumar, toamitkumar, Amit Kumar Blog, PaaS, Engineering, Engineering Excellence, Microservice, Digital Transformation, Cloud Computing, API Ecosystem, Agile, Conference speaking, DevOps, IaaC, IaaS">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Building &amp; scaling Engineering team | toamitkumar&#39;s Blog, Engineering Excellence, software architecture, Technology Incubation, PaaS, Microservice, Digital Transformation, Cloud Computing, API Ecosystem, Agile, Conference speaking, DevOps, IAC, IaaS</title>
+
+    <link rel="canonical" href="/2022/01/03/building-and-scaling-engineering-team/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+
+    
+    <link rel="stylesheet" href="http://localhost:1313/stylesheets/overwrite.css">
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Amit Kumar</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/agile-development">agile development</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/tech">tech</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/transformation">transformation</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/community/">Community</a></li>
+                    
+                        <li><a href="/top/speaking/">SPEAKING</a></li>
+                    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+
+                    
+		    <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/home-bg.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/product-engineering" title="product engineering">
+                            product engineering
+                        </a>
+                        
+                        <a class="tag" href="/tags/engineering-at-scale" title="engineering at scale">
+                            engineering at scale
+                        </a>
+                        
+                        <a class="tag" href="/tags/financial-services" title="financial services">
+                            financial services
+                        </a>
+                        
+                        <a class="tag" href="/tags/engineering-excellence" title="engineering excellence">
+                            engineering excellence
+                        </a>
+                        
+                        <a class="tag" href="/tags/infrastructure-as-a-service" title="infrastructure as a service">
+                            infrastructure as a service
+                        </a>
+                        
+                        <a class="tag" href="/tags/platform-engineering" title="platform engineering">
+                            platform engineering
+                        </a>
+                        
+                    </div>
+                    <h1>Building &amp; scaling Engineering team</h1>
+                    <h2 class="subheading">Building an Engineering setup in Financial Services - I</h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                Amit Kumar
+                             
+                            on 
+                            Monday, January 3, 2022
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>The first article of the series of 5 blog posts describes the journey to build an Engineering setup in Financial Services. Read the <a href="/2022/01/02/building-engineering-setup-financial-services/">preface</a> to get a clear context of the journey.</p>
+<ul>
+<li><strong>Building and scaling Engineering team</strong>: Principles and practices adopted to build the product and engineering team</li>
+<li><a href="/2022/01/04/technology-choice-and-engineering-practices/">Technology choices &amp; Engineering practices</a>: We took an outward-in approach to establish the foundation of technology stack, architecture/ design choices &amp; engineering practices</li>
+<li><a href="/2022/01/05/platform-engineering/">Platform Engineering</a>: A team responsible for architecture reference, engineering tools/ practices, cross-cutting-concerns, DevOps processes, playbooks. Provide platform-as-service to the internal product team.</li>
+<li><a href="/2022/01/27/infrastructure-as-a-service/">Infrastructure</a>: The core principle was IAC (Infrastructure as Code). We built a service-oriented structure with Infrastructure as Service</li>
+<li><a href="/2022/02/02/infrastructure-as-a-service/">Operations - keep the lights ON aka DevOps</a>: Traditionally, financial services have a dedicated operations team. Following DevOps principle, we followed &ndash; <em>You build it, you run it!</em></li>
+</ul>
+<hr>
+<h2 id="how-we-started">How we started</h2>
+<p><a href="https://dkatalis.co" rel="noopener" target="_blank">DKatalis</a> is an engineering setup and hence, we had our tech stack on the bleeding edge for Financial services - <a href="https://flutter.dev/" rel="noopener" target="_blank">Dart (Flutter)</a> for FE, server-side JS (NodeJS) for BE, Kafka (service communication and data streams), APIGW (Tyk), MongoDB, Redis, CloudFlare, ELK, Dynatrace &amp; Solarwinds, Terraform (IAC) &amp; full cloud setup to just name a few.</p>
+<p>Starting to build a team without a brand name is challenging, it starts with your network and expands to layers beyond. Add to it, the bleeding edge of technology (especially Flutter, we couldn&rsquo;t find experienced engineers in the region, more on this later), making it even hard to build the team.</p>
+<p>As explained in the <a href="/2022/01/02/building-engineering-setup-financial-services/#what-i-have-been-doing">preface</a>, guiding principles are important.
+Hence, the first step for us was to have guiding principles which will be used to build the team. With help from <a href="https://www.linkedin.com/in/maya-kartika-52b2a2131/" rel="noopener" target="_blank">Maya Kartika</a> (our Head of People) &amp; <a href="https://www.linkedin.com/in/vincentius-ivan-9858581b/" rel="noopener" target="_blank">Ivan Vincentius</a> (Head of Jakarta Hub), we came up with the following principles:</p>
+<h5 id="guiding-principles">Guiding principles:</h5>
+<ul>
+<li>build the team where it is needed</li>
+<li>build the team where talent is available</li>
+<li>responsibilities are more important than titles (senior members will have a broader set of responsibilities)</li>
+<li>build a balanced team (mix of senior, mid-level &amp; juniors). <strong><em>This is still a struggle for us</em></strong></li>
+<li>people are assets, invest in them (it&rsquo;s a journey and we are making progress here)</li>
+</ul>
+<p>With the above guiding principles, it was clear, we need to hire engineers outside of <strong>Indonesia</strong> (although our core business team was in Jakarta). We started the process to establish entities across 3 locations: Singapore, Jakarta &amp; Pune. Not going into details of an entity setup, assembling a diverse &amp; geographically distributed team is tough. The first step was to hire a few good tech recruiters and build a network with head hunters. We started with initial 7-8 core members who started to: <strong>build the foundation and also invest time in hiring</strong>.</p>
+<p>You need to do early investment to build your <strong>brand equity</strong> - this becomes even more important if your brand is not an established one.
+Initially, the slow response was slow but with efforts from our recruiters, engineering staff, and our Tech Hub Heads - <a href="https://www.linkedin.com/in/vincentius-ivan-9858581b/" rel="noopener" target="_blank">Ivan Vincentius</a> &amp; <a href="https://www.linkedin.com/in/puneet-jain-8133451b" rel="noopener" target="_blank">Puneet Jain</a>, we got good results. We grew from <strong>10-12 members in Oct-Nov'19 to 200+ in Dec'20</strong> across the 3 locations &ndash; Singapore, Jakarta &amp; Pune (as of the date we have 300+ across the locations).</p>
+<h2 id="the-hiring-process">The hiring process</h2>
+<p>The hiring process should reflect what kinda team you want to build. Going back to our guiding principle, we wanted to have everyone hands-on, this meant,</p>
+<blockquote>
+<p><strong>no matter years of experience, every candidate would have to go through a test exercise</strong></p>
+</blockquote>
+<p>Hence, we configured the hiring process to make sure it reflects the type of team we want to build.</p>
+<p>
+  <figure>
+    <img src="/img/hiring-funnel.jpg" alt="">
+    <center><figcaption>Hiring Funnel or Stages</figcaption></center>
+  </figure>
+
+</p>
+<p>The same process was configured for all the roles: <strong>Product Engineers</strong> (Developers and Automation Engineers), <strong>Platform Engineers</strong>, <strong>System Engineers</strong> (Infrastructure), <strong>POs</strong>, <strong>Security Engineers</strong>, <strong>Performance specialists</strong>, <strong>Data Engineers</strong>, <strong>Data Science</strong> &amp; <strong>Data Analysts</strong>. This not only helped to keep a consistent hiring process across the organisation but also in propelling a culture to be driven by responsibilities.</p>
+<h5 id="principles-for-hiring">Principles for hiring</h5>
+<ul>
+<li>Make sure to draft the roles and responsibilities for each profile (aka JOb Description)</li>
+<li>Strictly follow the hiring funnel</li>
+<li>Reduce subjectivity in the process</li>
+<li>If in doubt, reject (letting go someone after hiring will be expensive)</li>
+<li>Keep track of the hiring funnel, fine-tune the process</li>
+</ul>
+<p>When you are starting, interviews are the first impression to candidates (and their network of people) about the organisation. Make sure your recruitment team and panelists are <strong>Brand Ambassador</strong> of the company, make <strong>Candidate Experience</strong>, the first thing to focus.</p>
+<p>We did this by reviewing and documenting, each stage of the interview - from recruiters and panelists perspectives:</p>
+<ul>
+<li><strong>how to engage with the candidate (outside and during the interview process)</strong>: intros, pitch about ourselves, explain the hiring process,  pause between questions and invite them to ask, explain about the assignment and the review process, confirm the role he/she has applied</li>
+<li><strong>scheduling interviews</strong>: recruiter needs to ensure both candidate and the panelist are available. They would do an initial intro before the interview starts. If the interview cannot happen, avoid last-minute changes</li>
+<li><strong>how to conduct the interview</strong>: follow guidelines for each stage of the interview</li>
+<li><strong>during the interview</strong>: respect the interview time window (review the feedbacks from previous stages and prepare), summarise your understanding (don&rsquo;t assume), be aware of your body language (help them succeed)</li>
+<li><strong>after the interview</strong>: fill feedback form with a defined structure, be available to answer queries from the candidate (even if he/she is not selected), take feedback from the candidate, do a panel debrief, if in conflict</li>
+</ul>
+<p>As you grow, the hiring panel starts to broaden and hence, the subjectivity during interviews. Even though we documented each stage of the interview process, still we started to see subjectivity (or I must say the drop in quality) in hiring - remember we were dealing with hiring at 3 locations. With retrospectives, we found one of the most challenging stage was code review. Hence, we standardised the code review process. <a href="https://www.linkedin.com/in/jeevan-d-c/" rel="noopener" target="_blank">Jeevan D C</a>, <a href="https://www.linkedin.com/in/vincentius-ivan-9858581b/" rel="noopener" target="_blank">Ivan Vincentius</a> and I put clear dimensions for feedback:</p>
+<ul>
+<li><strong>Code structuring</strong> (Directory structure, First-class objects, Modularity, Design patterns)</li>
+<li><strong>Engineering practices</strong> (Naming conventions, git process/logs, clean coding rules, documentation, tests &amp; coverage)</li>
+<li><strong>Runtime</strong> (logical approach, error handling, readme)</li>
+</ul>
+<h5 id="keeping-track-of-the-progress">Keeping track of the progress</h5>
+<p>As you continue to build your team, it is imperative to have a regular review cadence of the progress. The intent is to identify blockers for each stage of the interview and identify opportunities to optimize the process. The first step was to capture data - fall out of profiles from each stage.</p>
+<blockquote>
+<p><strong>Waste repellent learning culture - reduce waste, remove unnecessary process</strong></p>
+</blockquote>
+<p>
+  <figure>
+    <img src="/img/hiring-funnel-breakup.jpg" alt="">
+    <center><figcaption>Percent breakdown for each stage</figcaption></center>
+  </figure>
+
+
+The picture above helped us find opportunities to improve and fine-tune the hiring process so that we could celebrate successes.
+Additionally, we defined metrics to keep close track of the hiring funnel</p>
+<blockquote>
+<p><strong>Time to offer &lt; 3 weeks</strong></p>
+</blockquote>
+<p>This metric tracked the time it takes from the first touch-point with the candidate to when the offer letter is sent - measuring the time spent during each stage of the interview. We challenged ourselves to complete the process in not more than 3 weeks. Today, this metric measures <strong>22 days</strong> across the location.</p>
+<h2 id="organizing-teams">Organizing teams</h2>
+<p>When you&rsquo;re small, everyone does everything, it was the case with us as well. But, as you grow from 20-100, organizing an agile team is a fundamental problem everyone starts to face. I have been part of designing and building engineering Org structure at least twice so far (Bank BTPN during IT Transformation &amp; DKatalis as we scaled). Like always, we established important guiding principles as our steer the direction:</p>
+<ul>
+<li><strong>Reduce silos &amp; increase Communication</strong>: communication plays a fundamental role between squads. As the number of squads increases, communication or alignment between them starts to break. It can be product spec alignment or prioritisation or design decisions or release dependency. Make sure to define processes to have the communication flowing. More the communication, less the silos across squads.</li>
+<li><strong>Decouple Org structure &amp; Career growth</strong>: Typically, the boxes of an org structure are seen as the career path of an individual in an organisation. Additionally, the org structure also becomes the reporting relationships that people might love or hate. We chose to detach Org&rsquo;s structure (keep it flat) and career growth path. We designed the growth path to be based on dimensions of responsibilities: <strong>Impact, Innovation &amp; Leadership</strong>, while the org structure was focussed on pure building blocks of the company. This is an ongoing task, we are still working and making it fine-tuned.</li>
+<li><strong>Customer centricity</strong>: This is a very important dimension of the Org model is <a href="https://www.forbes.com/sites/strategyand/2015/04/01/10-guiding-principles-of-organization-design" rel="noopener" target="_blank">value proposition for its customer, employees, investors</a>.</li>
+<li><strong>Team autonomy</strong>: Team autonomy is one of the primary requirements for decentralised decision-making. It reduces choke points and increases team productivity. As explained by Henrik, team autonomy is one of the fundamental benefits of the Spotify model. However, as the number of squads increased, we faced challenges in making sure autonomy is not taken as a process to choose anything. We introduced what I call <a href="https://www.linkedin.com/pulse/guardrail-ed-autonomy-amit-kumar/" rel="noopener" target="_blank">Guardrails around Team Autonomy</a>.</li>
+<li><strong>Productivity</strong>: The purpose of an Org structure is to enable engineers to be more productive - reduce blockers, increase collaboration. In the next batch of the series, I explain in detail the Development practices and processes that helped us with productivity.</li>
+</ul>
+<h4 id="tribes-squads-chapters">Tribes-Squads-Chapters</h4>
+<p><a href="https://www.atlassian.com/agile/agile-at-scale/spotify" rel="noopener" target="_blank">Spotify Model</a> answers most of the guiding principles listed above, hence, it was our defacto choice to organise the team. Having said that, Spotify model doesn&rsquo;t answer many questions, so, we did not consider &ndash;</p>
+<blockquote>
+<p><strong>Spotify model as a framework</strong></p>
+</blockquote>
+<p>&ndash; but as guidelines for autonomy, communication, accountability, and quality (as suggested by Henrik Kniberg in his article - <a href="https://blog.crisp.se/2015/06/07/henrikkniberg/no-i-didnt-invent-the-spotify-model" rel="noopener" target="_blank">No, I didn’t invent the Spotify model</a>).</p>
+<h6 id="organising-ourselves-in-squads--chapters">Organising ourselves in Squads &amp; Chapters</h6>
+<blockquote>
+<p><strong>Conway&rsquo;s Law</strong>: Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.</p>
+</blockquote>
+<p>In short - communication structure in the organisation directly influences the design of technical systems. So, if we inverse Conway&rsquo;s Law - for optimal system architectural designs, we have to simplify the communication structure in which, team size plays an important role in socio-interactions. Hence, our choice was to <strong>build small X-as-service provider teams</strong> knitted together through loosely coupled API communication and customer journeys:</p>
+<ul>
+<li>registration journey</li>
+<li>payment journey</li>
+<li>transfer journey</li>
+<li>partner integration journey</li>
+</ul>
+<p>A typical squad is led by a combination of PO and Tech Lead (who are also responsible for the scrum ceremonies). Additionally, a squad will also have FSE - Full Stack Engineers (each specialising in FE or BE) and Quality Engineers (for automation). We tried to maintain a healthy ratio of 3:1 (for every 3 developers, 1 QE) - as depicted below:
+
+  <figure>
+    <img src="/img/squad-structure.jpg" alt="">
+    <center><figcaption>Squad Structure</figcaption></center>
+  </figure>
+
+</p>
+<p><em>In my opinion, it&rsquo;s a myth that an Engineer can be an all-rounder - expert in FE, BE and Systems (aka Infra). I prefer to maximise on their strength, make them work as pairs to optimise productivity &amp; quality.</em> (may be an article for future)</p>
+<p>The picture below represents the squad/chapter setup we had in-place.</p>
+<p>
+  <figure>
+    <img src="/img/squads-chapters.jpg" alt="">
+    <center><figcaption>Squads and Chapters</figcaption></center>
+  </figure>
+
+</p>
+<p>In addition, we built some core squads responsible for specialised work:</p>
+<ul>
+<li><strong>Platform Engineering</strong> (<em>more on this in the upcoming post</em>): they are responsible for: cross-cutting concerns, engineering tools/platforms/components that are used across all teams, gatekeepers of scale, reliability, security. In short, they are the glue between Product Delivery and Infrastructure squads.</li>
+<li><strong>Samurai</strong>: A specialised squad responsible for managing Automation frameworks, Performance/ Load test frameworks, DevSecOps</li>
+<li><strong>Sniper</strong>: A squad responsible for providing IaaS to all other squads. They do: IAC, Infra operations, Monitoring, Alerts.
+
+  <figure>
+    <img src="/img/org-structure.jpg" alt="">
+    <center><figcaption>Oragnisation Structure</figcaption></center>
+  </figure>
+
+</li>
+</ul>
+<h4 id="the-upskilling-program">The upskilling program</h4>
+<p><strong>Or rather capability building</strong> - we designed a number of boot-camps and upskilling programs to make sure everyone is spending time outside of deliveries to learn &amp; grow. Some are listed below:</p>
+<ul>
+<li>best practices for writing good quality software</li>
+<li>good practices for writing stories &amp; managing backlogs (including cross-squad alignment)</li>
+<li>boot-camps for learning Flutter &amp; NodeJS</li>
+<li>how to effectively use OKRs to manage priorities and cross tribe/ squad dependencies</li>
+<li>devops boot-camps</li>
+</ul>
+<h2 id="pitfalls-and-learnings">Pitfalls and learnings</h2>
+<p>Building an engineering setup from ground zero and scaling it to 300+ in less than 2 years was a huge undertaking. For sure, we had many learnings during this journey, some of the important ones to highlight here:</p>
+<ul>
+<li><strong>Build Platform Engineering squad</strong> &#x1f44d;: Do an early investment in shaping <em>Platform Engineering Squad</em> and make sure they have enough capacity as you grow. We did so and hence, we reaped benefits of having:
+<ul>
+<li>reference blueprint of the architecture</li>
+<li>cross-cutting concerns (re-usuable modules &amp; boiler-plate code) were developed before product squads started to write features. This helped in reducing the spaghetti of code duplication and inconsistency across various squads</li>
+<li>focussed attention on non-functional features - performance, scalability, reliability, security</li>
+</ul>
+</li>
+<li><strong>Hiring mistakes are very expensive</strong> <em>- build a balanced team</em> &#x1f44e;: this is one of the problems that we are still solving. We hired quite a few junior staff, although, we designed boot-camps and crash-courses to bring them up-to-speed, it still takes time for them to be productive independently</li>
+<li><strong>Avoid cross-squad feature split</strong> &#x1f44c;: As far as possible, do a full vertical slice of feature to a squad (FE, BE, Systems, Operations). Distributing it across multiple squads leads to un-necessary project management overheads</li>
+<li>Chapters should be tightly integrated with the Product Backlog, otherwise, chapters would just be on paper &#x1f44e;</li>
+<li><strong>Measuring the productivity of squads is a trap</strong>, rather focus on outcomes they are producing:
+<ul>
+<li>You should never compare the velocity of multiple squads (this is a well-known fact) but we end up doing that. Very soon it becomes a number game and the squads will start to blow-up story points to match up velocity (&#x1f44e;)</li>
+<li>Define metrics to measure outcomes:
+<ul>
+<li>quality metrics</li>
+<li>time to ship a feature</li>
+<li>incidents or bugs found on production</li>
+<li>bug to story ratio</li>
+<li>life of critical bugs on production
+are good examples of outcomes produced by squads. In the next article, I would walk through categories of such metrics.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Have a regular cadence of sessions with the whole Organisation</strong> &#x1f44c;: share the larger picture, celebrate successes &amp; learnings</li>
+<li><strong>Designing career path/ growth</strong> is tough &#x1f44e;. Do an early investment</li>
+</ul>
+<hr>
+<p>People talk a lot about Engineering culture, however, my strong belief is:
+<code>practices followed in the organisation get into DNA and hence become the culture</code>
+Ending this article with the statement</p>
+<blockquote>
+<p><strong>Engineering culture (or rather any culture) is an outcome of practices</strong></p>
+</blockquote>
+<p>I would like to hear your thoughts on Engineering Culture. <em>(more on this in a separate post)</em></p>
+<p>I hope this article was an interesting read and provided good insights on our journey building an Engineering team.</p>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2022/01/02/building-engineering-setup-financial-services/" data-toggle="tooltip" data-placement="top" title="Building an Engineering setup for a Financial Service Institution">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2022/01/04/technology-choice-and-engineering-practices/" data-toggle="tooltip" data-placement="top" title="Technology choices and Engineering practices">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    <li>
+                        <a href="mailto:toamitkumar@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    <li>
+                        <a href="https://twitter.com/toamit">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/toamitkumar">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/toamitkumar">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    <li>
+                        <a target="_blank" href="https://toamitkumar.medium.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="Amit Kumar" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Amit Kumar 2026
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+</body>
+</html>

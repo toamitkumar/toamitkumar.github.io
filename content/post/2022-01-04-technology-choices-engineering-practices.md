@@ -7,7 +7,7 @@ description: "Second batch of the series of 5 posts describing the journey to bu
 date:       2022-01-04
 author: Amit Kumar
 image: "img/technology-choices.jpg"
-published: true
+draft: false
 
 tags:
     - product engineering

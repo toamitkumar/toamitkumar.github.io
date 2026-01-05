@@ -7,7 +7,7 @@ description: ""
 date:       2012-05-30
 author:    Amit Kumar
 image: "img/guard-rail-autonomy-1.jpg"
-published: true
+draft: false
 
 tags:
     - conference

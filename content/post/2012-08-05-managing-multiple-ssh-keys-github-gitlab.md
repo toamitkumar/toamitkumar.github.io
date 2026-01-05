@@ -7,7 +7,7 @@ description: ""
 date:       2012-08-05
 author:    Amit Kumar
 image: "img/home-bg.jpg"
-published: true
+draft: false
 
 tags:
     - multiple SSH keys

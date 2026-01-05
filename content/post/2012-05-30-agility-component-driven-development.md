@@ -7,7 +7,7 @@ description: ""
 date:       2012-05-30
 author:    Amit Kumar
 image: "img/home-bg.jpg"
-published: true
+draft: false
 
 tags:
     - team autonomy

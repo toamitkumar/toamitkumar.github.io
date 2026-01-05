@@ -7,7 +7,7 @@ description: ""
 date:       2021-01-30
 author:    Amit Kumar
 image: "img/guard-rail-autonomy.jpg"
-published: true
+draft: false
 
 tags:
     - team autonomy

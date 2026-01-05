@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multiple SSH Keys on Amit Kumar</title>
+    <link>http://localhost:1313/tags/multiple-ssh-keys/</link>
+    <description>Recent content in Multiple SSH Keys on Amit Kumar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/multiple-ssh-keys/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing multiple SSH Keys with Github &amp; Gitlab</title>
+      <link>http://localhost:1313/2012/08/05/manage-multiple-ssh-github-gitlab/</link>
+      <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2012/08/05/manage-multiple-ssh-github-gitlab/</guid>
+      <description>&lt;p&gt;I have always stumbled on this problem of managing SSH keys for multiple Git based SCM (Gitlab, GitHub) including multiple GitHub accounts.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve single account - adding the &lt;a href=&#34;https://help.github.com/articles/generating-ssh-keys&#34;&gt;SSH keys&lt;/a&gt; on your github or gitlab is simple.&lt;/p&gt;&#xA;&lt;p&gt;I currently have the following accounts:&lt;/p&gt;&#xA;&lt;h6 id=&#34;github&#34;&gt;Github&lt;/h6&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 personal account&lt;/li&gt;&#xA;&lt;li&gt;2 behind the firewall (corporate accounts)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h6 id=&#34;gitlab&#34;&gt;Gitlab&lt;/h6&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 personal account&lt;/li&gt;&#xA;&lt;li&gt;1 corporate account&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;If ever face a problem like this, it is best to create a &lt;code&gt;ssh-config&lt;/code&gt; file which aggregates all your SSH keys. You must follow the steps below:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,9 @@ languageCode = "en-us"
 disqusShortname = "toamitkumar-in"
 googleAnalytics = "UA-214927385-1"
 preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
+pagination.pagerSize = 5 #frontpage pagination
 enableEmoji = true
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]

@@ -7,7 +7,7 @@ description: "It is not about who is in the team, it is about how they worked to
 date:       2022-05-15
 author: Amit Kumar
 image: "img/tribal-culture.jpeg"
-published: true
+draft: false
 
 tags:
     - high impact teams

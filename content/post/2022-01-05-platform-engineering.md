@@ -7,7 +7,7 @@ description: "Third article of the series of 5 posts describing the journey to b
 date:       2022-01-05
 author: Amit Kumar
 image: "img/platform-engineering.jpg"
-published: true
+draft: false
 
 tags:
     - product engineering

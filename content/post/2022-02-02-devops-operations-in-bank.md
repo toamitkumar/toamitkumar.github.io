@@ -7,7 +7,7 @@ description: "Fifth and final article of the series of 5 posts describing the jo
 date:       2022-02-02
 author: Amit Kumar
 image: "img/operations-bank.jpg"
-published: true
+draft: false
 
 tags:
     - product engineering

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community Driven on Amit Kumar</title>
+    <link>http://localhost:1313/tags/community-driven/</link>
+    <description>Recent content in Community Driven on Amit Kumar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 May 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/community-driven/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Impression at #inspect2013 - RubyMotion Conference</title>
+      <link>http://localhost:1313/2013/04/09/ruby-motion-conference/</link>
+      <pubDate>Wed, 30 May 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2013/04/09/ruby-motion-conference/</guid>
+      <description>&lt;p&gt;The first RubyMotion Conference &lt;a href=&#34;http://www.rubymotion.com/conference/#schedule&#34;&gt;#inspect2013&lt;/a&gt; happened in Brussels, Belgium. It was a very well &lt;a href=&#34;http://eventifier.co/event/inspect13/&#34;&gt;organized conference&lt;/a&gt;, lots of talented people, awesome speakers, good food and yes &lt;em&gt;Belgian Beer&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/img/one_man_army-laurent.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Many thanks to Laurent Sansonetti (&lt;a href=&#34;https://twitter.com/lrz&#34;&gt;@lrz&lt;/a&gt;) for organizing the first RM conference.&lt;/p&gt;&#xA;&lt;p&gt;The general &lt;a href=&#34;https://gist.github.com/ryansobol/5276501&#34;&gt;gist&lt;/a&gt; of what happened there. Below are my observations and opinions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-saw-at-inspect2013---rubymotion-conference&#34;&gt;What I saw at #inspect2013 - RubyMotion conference?&lt;/h2&gt;&#xA;&lt;p&gt;For people who don’t know about RubyMotion:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.rubymotion.com/developer-center/&#34;&gt;About RubyMotion&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://rubysource.com/laurent-sansonetti-on-rubymotion-internals/&#34;&gt;http://rubysource.com/laurent-sansonetti-on-rubymotion-internals/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://motioncasts.tv/&#34;&gt;http://motioncasts.tv/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vimeo.com/61255647&#34;&gt;https://vimeo.com/61255647&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;observationsopinions&#34;&gt;Observations/Opinions:&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-community&#34;&gt;The Community:&lt;/h3&gt;&#xA;&lt;p&gt;Community plays a very important role in the success of Open Source Software. Even though RM is licensed, it has blessings from Ruby Community.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

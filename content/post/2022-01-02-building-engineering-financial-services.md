@@ -7,7 +7,7 @@ description: ""
 date:       2022-01-02
 author: Amit Kumar
 image: "img/home-bg.jpg"
-published: true
+draft: false
 
 tags:
     - product engineering
