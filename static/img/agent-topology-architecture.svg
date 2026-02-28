@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold">Agent Topology: Fine-Scoped vs Monolithic</text>
+  
+  <!-- Monolithic (Bad) -->
+  <g>
+    <text x="150" y="70" text-anchor="middle" font-size="16" font-weight="bold" fill="#d32f2f">❌ Monolithic Agent</text>
+    
+    <ellipse cx="150" cy="150" rx="80" ry="80" fill="#ffebee" stroke="#d32f2f" stroke-width="3"/>
+    <text x="150" y="145" text-anchor="middle" font-size="14" font-weight="bold">Super</text>
+    <text x="150" y="165" text-anchor="middle" font-size="14" font-weight="bold">Agent</text>
+    
+    <!-- Access lines -->
+    <line x1="150" y1="230" x2="150" y2="280" stroke="#d32f2f" stroke-width="2"/>
+    <line x1="150" y1="280" x2="50" y2="320" stroke="#d32f2f" stroke-width="2"/>
+    <line x1="150" y1="280" x2="150" y2="320" stroke="#d32f2f" stroke-width="2"/>
+    <line x1="150" y1="280" x2="250" y2="320" stroke="#d32f2f" stroke-width="2"/>
+    
+    <!-- Resources -->
+    <rect x="10" y="320" width="80" height="50" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" rx="5"/>
+    <text x="50" y="340" text-anchor="middle" font-size="12">Customer</text>
+    <text x="50" y="355" text-anchor="middle" font-size="12">Data</text>
+    
+    <rect x="110" y="320" width="80" height="50" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" rx="5"/>
+    <text x="150" y="340" text-anchor="middle" font-size="12">Payment</text>
+    <text x="150" y="355" text-anchor="middle" font-size="12">System</text>
+    
+    <rect x="210" y="320" width="80" height="50" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" rx="5"/>
+    <text x="250" y="340" text-anchor="middle" font-size="12">Code</text>
+    <text x="250" y="355" text-anchor="middle" font-size="12">Repository</text>
+    
+    <text x="150" y="410" text-anchor="middle" font-size="13" fill="#d32f2f" font-weight="bold">⚠️ Lethal Trifecta Risk</text>
+    <text x="150" y="430" text-anchor="middle" font-size="11" fill="#666">One compromised agent = full breach</text>
+  </g>
+  
+  <!-- Fine-Scoped (Good) -->
+  <g>
+    <text x="550" y="70" text-anchor="middle" font-size="16" font-weight="bold" fill="#388e3c">✓ Fine-Scoped Agents</text>
+    
+    <!-- Policy Agent -->
+    <ellipse cx="550" cy="120" rx="50" ry="40" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+    <text x="550" y="120" text-anchor="middle" font-size="11" font-weight="bold">Policy</text>
+    <text x="550" y="133" text-anchor="middle" font-size="11" font-weight="bold">Agent</text>
+    
+    <!-- Cleansing Agent -->
+    <ellipse cx="450" cy="200" rx="50" ry="40" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+    <text x="450" y="200" text-anchor="middle" font-size="11" font-weight="bold">Cleansing</text>
+    <text x="450" y="213" text-anchor="middle" font-size="11" font-weight="bold">Agent</text>
+    
+    <!-- Read Agent -->
+    <ellipse cx="550" cy="200" rx="50" ry="40" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+    <text x="550" y="200" text-anchor="middle" font-size="11" font-weight="bold">Read</text>
+    <text x="550" y="213" text-anchor="middle" font-size="11" font-weight="bold">Agent</text>
+    
+    <!-- Write Agent -->
+    <ellipse cx="650" cy="200" rx="50" ry="40" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+    <text x="650" y="200" text-anchor="middle" font-size="11" font-weight="bold">Write</text>
+    <text x="650" y="213" text-anchor="middle" font-size="11" font-weight="bold">Agent</text>
+    
+    <!-- Connections -->
+    <line x1="550" y1="160" x2="550" y2="180" stroke="#388e3c" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="530" y1="160" x2="470" y2="180" stroke="#388e3c" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="570" y1="160" x2="630" y2="180" stroke="#388e3c" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- Resources -->
+    <line x1="450" y1="240" x2="450" y2="280" stroke="#388e3c" stroke-width="2"/>
+    <rect x="410" y="280" width="80" height="50" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="5"/>
+    <text x="450" y="300" text-anchor="middle" font-size="11">Customer</text>
+    <text x="450" y="315" text-anchor="middle" font-size="11">Data</text>
+    <text x="450" y="325" text-anchor="middle" font-size="9">(Read Only)</text>
+    
+    <line x1="550" y1="240" x2="550" y2="280" stroke="#388e3c" stroke-width="2"/>
+    <rect x="510" y="280" width="80" height="50" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="5"/>
+    <text x="550" y="300" text-anchor="middle" font-size="11">Payment</text>
+    <text x="550" y="315" text-anchor="middle" font-size="11">System</text>
+    <text x="550" y="325" text-anchor="middle" font-size="9">(Gated)</text>
+    
+    <line x1="650" y1="240" x2="650" y2="280" stroke="#388e3c" stroke-width="2"/>
+    <rect x="610" y="280" width="80" height="50" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="5"/>
+    <text x="650" y="300" text-anchor="middle" font-size="11">Code Repo</text>
+    <text x="650" y="315" text-anchor="middle" font-size="11">(Limited)</text>
+    
+    <text x="550" y="370" text-anchor="middle" font-size="13" fill="#388e3c" font-weight="bold">✓ Principle of Least Privilege</text>
+    <text x="550" y="390" text-anchor="middle" font-size="11" fill="#666">Each agent: minimal access needed</text>
+  </g>
+  
+  <!-- Key Principles -->
+  <g>
+    <rect x="50" y="480" width="700" height="100" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+    <text x="400" y="510" text-anchor="middle" font-size="15" font-weight="bold">Design Principles</text>
+    <text x="400" y="535" text-anchor="middle" font-size="12">• Insert friction where decisions are costly • Reduce friction where they're trivial</text>
+    <text x="400" y="555" text-anchor="middle" font-size="12">• No single agent should hold all parts of the "Lethal Trifecta"</text>
+    <text x="400" y="575" text-anchor="middle" font-size="12">• Structure agents like you'd structure a company</text>
+  </g>
+</svg>

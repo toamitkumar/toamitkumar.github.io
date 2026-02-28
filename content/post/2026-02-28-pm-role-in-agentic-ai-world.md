@@ -24,6 +24,9 @@ tags:
 
 The translation layer between customers and engineers is compressing. When agents can convert well-formed problems into working code, PMs shift from writing specs for engineers to forming intent clearly enough that agents can act directly. **The spec is becoming the product.**
 
+![PM Workflow Evolution](/img/pm-workflow-evolution.svg)
+*Traditional PM workflow (weeks) vs. Agentic PM workflow (hours)*
+
 ### The New PM Skillset
 
 **1. Problem Shaping (The Primary Skill)**
@@ -44,6 +47,9 @@ Quality of agent output = quality of context you provide. Maintain context docs 
 - Constraints that shape the solution
 - How you'll know it worked (concrete metrics)
 
+![Context Curation Framework](/img/context-curation-framework.svg)
+*The six essential elements of effective context curation for AI agents*
+
 **3. Evaluation and Taste**
 
 - Distinguish "technically works" from "actually solves the problem"
@@ -57,6 +63,9 @@ Quality of agent output = quality of context you provide. Maintain context docs 
 - Fine-scoped agents over monolithic "access everything" agents
 - Insert friction where decisions are costly, reduce it where they're trivial
 - Apply Principle of Least Privilege—split tasks so no agent holds the full "Lethal Trifecta"
+
+![Agent Topology Architecture](/img/agent-topology-architecture.svg)
+*Fine-scoped agent architecture: Each agent has limited, specific access rather than monolithic permissions*
 
 **5. Risk & Policy Orchestration**
 

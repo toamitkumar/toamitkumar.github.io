@@ -1,39 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tops on Amit Kumar</title>
-    <link>https://toamitkumar.in/top/</link>
-    <description>Recent content in Tops on Amit Kumar</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://toamitkumar.in/top/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://toamitkumar.in/top/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://toamitkumar.in/top/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://toamitkumar.in/img/black-n-white-headshot.jpg&#34; alt=&#34;&#34;&gt;  &lt;strong&gt;&lt;em&gt;Amit Kumar&lt;/em&gt;&lt;/strong&gt; has been in Engineering setup for almost 2 decades. He is an open-source enthusiast having a passion to build large-scale (more than 10-15 million customers), cross-country platforms/systems across various industries.&lt;/p&gt;&#xA;&lt;p&gt;He enjoys speaking at Developer and Open Source Technology Conferences worldwide. Some of the talks can be referred below or &lt;a href=&#34;https://toamitkumar.in/top/speaking/&#34;&gt;here&lt;/a&gt;.&#xA;He is co-founder of the Open Source Not-for-profit community JSChannel - organizes meet-ups and conferences.&lt;/p&gt;&#xA;&lt;p&gt;He is a strong believer of:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://toamitkumar.in/top/community/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://toamitkumar.in/top/community/</guid>
-      <description>&lt;h2 id=&#34;community-organizing-co-founder&#34;&gt;Community (organizing, co-founder)&lt;/h2&gt;&#xA;&lt;p&gt;I have been involved in organizing conefenrences &amp;amp; user-groups, at the same time an avid speaker as well.&lt;/p&gt;&#xA;&lt;p&gt;Recently, I gave a talk on &lt;strong&gt;Creating DevOps Culture In A Bank&lt;/strong&gt; at &lt;a href=&#34;https://www.devopsdays.org/events/2017-singapore/program/amit-kumar/&#34;&gt;DevOpsDays Singapore&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Below are links to a few events I organize or given talks:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Organizer of DevOpsDays &lt;a href=&#34;https://www.devopsdays.org/events/2018-jakarta/&#34;&gt;Jakarta&lt;/a&gt;: first devops conference in Indonesia&lt;/li&gt;&#xA;&lt;li&gt;Speaker at &lt;a href=&#34;https://www.devopsdays.org/events/2017-singapore/program/amit-kumar/&#34;&gt;DevOpsDays Singapore&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Organizer of JSChannel Conference 2017&lt;/li&gt;&#xA;&lt;li&gt;Organizer of JSChannel Conference 2016&lt;/li&gt;&#xA;&lt;li&gt;Organizer of JSChannel Conference 2015&lt;/li&gt;&#xA;&lt;li&gt;Organizer of JSChannel Conference 2014&lt;/li&gt;&#xA;&lt;li&gt;Organizer of JSChannel Conference 2013&lt;/li&gt;&#xA;&lt;li&gt;Speaker at first &lt;a href=&#34;https://toamitkumar.in/2013/04/09/my-first-impression-at-inspect2013-rubymotion-conference/&#34;&gt;RubyMotion&lt;/a&gt; Conferece in Brussels&lt;/li&gt;&#xA;&lt;li&gt;Speaker at Ruby Conference Australia&lt;/li&gt;&#xA;&lt;li&gt;Speaker at &lt;a href=&#34;https://toamitkumar.in/2013/03/16/ruby-confrerence13-australia/&#34;&gt;Ruby Conference San Francisco&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Speaker at &lt;a href=&#34;https://toamitkumar.in/2011/09/30/big-data-enterprisey-analytics-and-ruby/&#34;&gt;Ruby Conference New Orleans&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://lanyrd.com/2011/mongo-philly/&#34;&gt;MongoDB Conference&lt;/a&gt; Philadelphia&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://toamitkumar.in/top/speaking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://toamitkumar.in/top/speaking/</guid>
-      <description>&lt;h1 id=&#34;2015&#34;&gt;2015&lt;/h1&gt;&#xA;&lt;p&gt;Digital Transformation of an Enterprise - 2 speed IT &amp;amp; Agile&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;8dae1ec43b314e79b4be8c9f67ae8346&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;2013&#34;&gt;2013&lt;/h1&gt;&#xA;&lt;h2 id=&#34;rubymotion-coference-brussels&#34;&gt;RubyMotion Coference, Brussels&lt;/h2&gt;&#xA;&lt;p&gt;RubyMotion - Building Interactive Data Visualization Charts&lt;/p&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;092999908275013006b522000a9f03fa&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;h2 id=&#34;ruby-conference-australia&#34;&gt;Ruby Conference, Australia&lt;/h2&gt;&#xA;&lt;p&gt;Using Ruby for Native iOS Development (&lt;a href=&#34;https://rubyconf.org.au/2013/speakers&#34;&gt;sessions&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;f6dab0105f6a013056301231381ff75d&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&#xA;      &lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/61255647?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;2012&#34;&gt;2012&lt;/h1&gt;&#xA;&lt;h3 id=&#34;goldengate-ruby-conference-san-francisco&#34;&gt;Goldengate Ruby Conference, San Francisco&lt;/h3&gt;&#xA;&lt;p&gt;Rubyizing iOS development (&lt;a href=&#34;http://2012.gogaruco.com/speakers.html&#34;&gt;sessions&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;5055d69cb4dbee000204e4fc&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/7v3LhtNZEcM?autoplay=1&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=1&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;GoGaRuCo 2012&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;2011&#34;&gt;2011&lt;/h1&gt;&#xA;&lt;h2 id=&#34;ruby-ruby-conference-new-orleans&#34;&gt;Ruby Ruby Conference, New Orleans&lt;/h2&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;4e868e826ea0ae0050000461&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/DaSqQlEZdA0?autoplay=1&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=1&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Ruby Conference 2011&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;mongodb-conference-new-orleans&#34;&gt;MongoDB Conference, New Orleans&lt;/h2&gt;&#xA;&lt;p&gt;Micro-Blogging Solution for the Enterprise (&lt;a href=&#34;http://www.10gen.com/conferences/mongophilly2011&#34;&gt;sessions&lt;/a&gt;)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Posts Archive</title>
-      <link>https://toamitkumar.in/top/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://toamitkumar.in/top/archive/</guid>
-      <description></description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tops on Amit Kumar</title><link>https://toamitkumar.in/top/</link><description>Recent content in Tops on Amit Kumar</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://toamitkumar.in/top/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://toamitkumar.in/top/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://toamitkumar.in/top/about/</guid><description>&lt;p&gt;
+ &lt;img src="https://toamitkumar.in/img/black-n-white-headshot.jpg" alt=""&gt;
+
+ &lt;strong&gt;&lt;em&gt;Amit Kumar&lt;/em&gt;&lt;/strong&gt; has been in Engineering setup for almost 2 decades. He is an open-source enthusiast having a passion to build large-scale (more than 10-15 million customers), cross-country platforms/systems across various industries.&lt;/p&gt;
+&lt;p&gt;He enjoys speaking at Developer and Open Source Technology Conferences worldwide. Some of the talks can be referred below or &lt;a href="https://toamitkumar.in/top/speaking/"&gt;here&lt;/a&gt;.
+He is co-founder of the Open Source Not-for-profit community JSChannel - organizes meet-ups and conferences.&lt;/p&gt;
+&lt;p&gt;He is a strong believer of:&lt;/p&gt;</description></item><item><title/><link>https://toamitkumar.in/top/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://toamitkumar.in/top/community/</guid><description>&lt;h2 id="community-organizing-co-founder"&gt;Community (organizing, co-founder)&lt;/h2&gt;
+&lt;p&gt;I have been involved in organizing conefenrences &amp;amp; user-groups, at the same time an avid speaker as well.&lt;/p&gt;
+&lt;p&gt;Recently, I gave a talk on &lt;strong&gt;Creating DevOps Culture In A Bank&lt;/strong&gt; at &lt;a href="https://www.devopsdays.org/events/2017-singapore/program/amit-kumar/"&gt;DevOpsDays Singapore&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Below are links to a few events I organize or given talks:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Organizer of DevOpsDays &lt;a href="https://www.devopsdays.org/events/2018-jakarta/"&gt;Jakarta&lt;/a&gt;: first devops conference in Indonesia&lt;/li&gt;
+&lt;li&gt;Speaker at &lt;a href="https://www.devopsdays.org/events/2017-singapore/program/amit-kumar/"&gt;DevOpsDays Singapore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Organizer of JSChannel Conference 2017&lt;/li&gt;
+&lt;li&gt;Organizer of JSChannel Conference 2016&lt;/li&gt;
+&lt;li&gt;Organizer of JSChannel Conference 2015&lt;/li&gt;
+&lt;li&gt;Organizer of JSChannel Conference 2014&lt;/li&gt;
+&lt;li&gt;Organizer of JSChannel Conference 2013&lt;/li&gt;
+&lt;li&gt;Speaker at first &lt;a href="https://toamitkumar.in/2013/04/09/my-first-impression-at-inspect2013-rubymotion-conference/"&gt;RubyMotion&lt;/a&gt; Conferece in Brussels&lt;/li&gt;
+&lt;li&gt;Speaker at Ruby Conference Australia&lt;/li&gt;
+&lt;li&gt;Speaker at &lt;a href="https://toamitkumar.in/2013/03/16/ruby-confrerence13-australia/"&gt;Ruby Conference San Francisco&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Speaker at &lt;a href="https://toamitkumar.in/2011/09/30/big-data-enterprisey-analytics-and-ruby/"&gt;Ruby Conference New Orleans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lanyrd.com/2011/mongo-philly/"&gt;MongoDB Conference&lt;/a&gt; Philadelphia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</description></item><item><title/><link>https://toamitkumar.in/top/speaking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://toamitkumar.in/top/speaking/</guid><description>&lt;h1 id="2015"&gt;2015&lt;/h1&gt;
+&lt;p&gt;Digital Transformation of an Enterprise - 2 speed IT &amp;amp; Agile
+&lt;script async class="speakerdeck-embed" data-id="8dae1ec43b314e79b4be8c9f67ae8346" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;h1 id="2013"&gt;2013&lt;/h1&gt;
+&lt;h2 id="rubymotion-coference-brussels"&gt;RubyMotion Coference, Brussels&lt;/h2&gt;
+&lt;p&gt;RubyMotion - Building Interactive Data Visualization Charts&lt;/p&gt;
+&lt;script async class="speakerdeck-embed" data-id="092999908275013006b522000a9f03fa" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;h2 id="ruby-conference-australia"&gt;Ruby Conference, Australia&lt;/h2&gt;
+&lt;p&gt;Using Ruby for Native iOS Development (&lt;a href="https://rubyconf.org.au/2013/speakers"&gt;sessions&lt;/a&gt;)&lt;/p&gt;
+&lt;script async class="speakerdeck-embed" data-id="f6dab0105f6a013056301231381ff75d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+ &lt;div
+ style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe
+ src="https://player.vimeo.com/video/61255647?dnt=0"
+ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen"&gt;
+ &lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h1 id="2012"&gt;2012&lt;/h1&gt;
+&lt;h3 id="goldengate-ruby-conference-san-francisco"&gt;Goldengate Ruby Conference, San Francisco&lt;/h3&gt;
+&lt;p&gt;Rubyizing iOS development (&lt;a href="http://2012.gogaruco.com/speakers.html"&gt;sessions&lt;/a&gt;)&lt;/p&gt;
+&lt;script async class="speakerdeck-embed" data-id="5055d69cb4dbee000204e4fc" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/7v3LhtNZEcM?autoplay=1&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=1&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="GoGaRuCo 2012"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h1 id="2011"&gt;2011&lt;/h1&gt;
+&lt;h2 id="ruby-ruby-conference-new-orleans"&gt;Ruby Ruby Conference, New Orleans&lt;/h2&gt;
+&lt;script async class="speakerdeck-embed" data-id="4e868e826ea0ae0050000461" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DaSqQlEZdA0?autoplay=1&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=1&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Ruby Conference 2011"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;h2 id="mongodb-conference-new-orleans"&gt;MongoDB Conference, New Orleans&lt;/h2&gt;
+&lt;p&gt;Micro-Blogging Solution for the Enterprise (&lt;a href="http://www.10gen.com/conferences/mongophilly2011"&gt;sessions&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>Posts Archive</title><link>https://toamitkumar.in/top/archive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://toamitkumar.in/top/archive/</guid><description/></item></channel></rss>

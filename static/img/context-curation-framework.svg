@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold">Context Curation Framework</text>
+  <text x="400" y="55" text-anchor="middle" font-size="14" fill="#666">Quality of agent output = Quality of context provided</text>
+  
+  <!-- Central Hub -->
+  <ellipse cx="400" cy="350" rx="100" ry="80" fill="#fff3e0" stroke="#FF9800" stroke-width="3"/>
+  <text x="400" y="340" text-anchor="middle" font-size="16" font-weight="bold">Context</text>
+  <text x="400" y="360" text-anchor="middle" font-size="16" font-weight="bold">Document</text>
+  
+  <!-- 1. The User -->
+  <g>
+    <ellipse cx="200" cy="150" rx="90" ry="70" fill="#e3f2fd" stroke="#2196F3" stroke-width="2"/>
+    <text x="200" y="140" text-anchor="middle" font-size="13" font-weight="bold">1. The User</text>
+    <text x="200" y="158" text-anchor="middle" font-size="11">(Specifically)</text>
+    <line x1="260" y1="190" x2="330" y2="300" stroke="#2196F3" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="120" y="200" width="160" height="50" fill="#e3f2fd" stroke="#2196F3" stroke-width="1" rx="3"/>
+    <text x="200" y="220" text-anchor="middle" font-size="10">Real details, not personas</text>
+    <text x="200" y="235" text-anchor="middle" font-size="10">Who they are, what they</text>
+    <text x="200" y="245" text-anchor="middle" font-size="10">care about, pain points</text>
+  </g>
+  
+  <!-- 2. Problem in Their Words -->
+  <g>
+    <ellipse cx="600" cy="150" rx="90" ry="70" fill="#f3e5f5" stroke="#9C27B0" stroke-width="2"/>
+    <text x="600" y="140" text-anchor="middle" font-size="13" font-weight="bold">2. Problem</text>
+    <text x="600" y="158" text-anchor="middle" font-size="11">(Their Words)</text>
+    <line x1="540" y1="190" x2="470" y2="300" stroke="#9C27B0" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="520" y="200" width="160" height="50" fill="#f3e5f5" stroke="#9C27B0" stroke-width="1" rx="3"/>
+    <text x="600" y="220" text-anchor="middle" font-size="10">Direct quotes from calls,</text>
+    <text x="600" y="235" text-anchor="middle" font-size="10">tickets, sales notes</text>
+    <text x="600" y="245" text-anchor="middle" font-size="10">Not your synthesis</text>
+  </g>
+  
+  <!-- 3. What Good Looks Like -->
+  <g>
+    <ellipse cx="150" cy="350" rx="90" ry="70" fill="#e8f5e9" stroke="#4CAF50" stroke-width="2"/>
+    <text x="150" y="340" text-anchor="middle" font-size="13" font-weight="bold">3. What Good</text>
+    <text x="150" y="358" text-anchor="middle" font-size="11">Looks Like</text>
+    <line x1="240" y1="350" x2="300" y2="350" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="70" y="400" width="160" height="50" fill="#e8f5e9" stroke="#4CAF50" stroke-width="1" rx="3"/>
+    <text x="150" y="420" text-anchor="middle" font-size="10">Examples, not descriptions</text>
+    <text x="150" y="435" text-anchor="middle" font-size="10">Past work, competitors,</text>
+    <text x="150" y="445" text-anchor="middle" font-size="10">adjacent products</text>
+  </g>
+  
+  <!-- 4. What Failed -->
+  <g>
+    <ellipse cx="650" cy="350" rx="90" ry="70" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
+    <text x="650" y="340" text-anchor="middle" font-size="13" font-weight="bold">4. What You've</text>
+    <text x="650" y="358" text-anchor="middle" font-size="11">Tried & Failed</text>
+    <line x1="550" y1="350" x2="500" y2="350" stroke="#f44336" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="570" y="400" width="160" height="50" fill="#ffebee" stroke="#f44336" stroke-width="1" rx="3"/>
+    <text x="650" y="420" text-anchor="middle" font-size="10">Institutional knowledge</text>
+    <text x="650" y="435" text-anchor="middle" font-size="10">Approaches already killed</text>
+    <text x="650" y="445" text-anchor="middle" font-size="10">and why</text>
+  </g>
+  
+  <!-- 5. Constraints -->
+  <g>
+    <ellipse cx="250" cy="520" rx="90" ry="70" fill="#fff9c4" stroke="#FBC02D" stroke-width="2"/>
+    <text x="250" y="510" text-anchor="middle" font-size="13" font-weight="bold">5. Constraints</text>
+    <text x="250" y="528" text-anchor="middle" font-size="11">That Matter</text>
+    <line x1="310" y1="480" x2="350" y2="410" stroke="#FBC02D" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="170" y="570" width="160" height="50" fill="#fff9c4" stroke="#FBC02D" stroke-width="1" rx="3"/>
+    <text x="250" y="590" text-anchor="middle" font-size="10">Not every constraint</text>
+    <text x="250" y="605" text-anchor="middle" font-size="10">Just ones that will change</text>
+    <text x="250" y="615" text-anchor="middle" font-size="10">what gets built</text>
+  </g>
+  
+  <!-- 6. Success Metrics -->
+  <g>
+    <ellipse cx="550" cy="520" rx="90" ry="70" fill="#e1f5fe" stroke="#03A9F4" stroke-width="2"/>
+    <text x="550" y="510" text-anchor="middle" font-size="13" font-weight="bold">6. How You'll</text>
+    <text x="550" y="528" text-anchor="middle" font-size="11">Know It Worked</text>
+    <line x1="490" y1="480" x2="450" y2="410" stroke="#03A9F4" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="470" y="570" width="160" height="50" fill="#e1f5fe" stroke="#03A9F4" stroke-width="1" rx="3"/>
+    <text x="550" y="590" text-anchor="middle" font-size="10">Concrete, not fuzzy</text>
+    <text x="550" y="605" text-anchor="middle" font-size="10">Something you can</text>
+    <text x="550" y="615" text-anchor="middle" font-size="10">measure or observe</text>
+  </g>
+  
+  <!-- Bottom Note -->
+  <rect x="100" y="650" width="600" height="40" fill="#f5f5f5" stroke="#999" stroke-width="1" rx="5"/>
+  <text x="400" y="675" text-anchor="middle" font-size="12" font-style="italic">
+    Maintain this context doc and feed it to agents before starting any project
+  </text>
+  
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
