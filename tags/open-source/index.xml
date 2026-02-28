@@ -1,5 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>open source on Amit Kumar</title><link>https://toamitkumar.in/tags/open-source/</link><description>Recent content in open source on Amit Kumar</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 30 May 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://toamitkumar.in/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>My Impression at #inspect2013 - RubyMotion Conference</title><link>https://toamitkumar.in/2013/04/09/ruby-motion-conference/</link><pubDate>Wed, 30 May 2012 00:00:00 +0000</pubDate><guid>https://toamitkumar.in/2013/04/09/ruby-motion-conference/</guid><description>The first RubyMotion Conference #inspect2013 happened in Brussels, Belgium. It was a very well organized conference, lots of talented people, awesome speakers, good food and yes Belgian Beer
-Many thanks to Laurent Sansonetti (@lrz) for organizing the first RM conference.
-The general gist of what happened there. Below are my observations and opinions.
-What I saw at #inspect2013 - RubyMotion conference? For people who don’t know about RubyMotion:
-About RubyMotion http://rubysource.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source on Amit Kumar</title><link>https://toamitkumar.in/tags/open-source/</link><description>Recent content in Open Source on Amit Kumar</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 May 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://toamitkumar.in/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>My Impression at #inspect2013 - RubyMotion Conference</title><link>https://toamitkumar.in/2013/04/09/ruby-motion-conference/</link><pubDate>Wed, 30 May 2012 00:00:00 +0000</pubDate><guid>https://toamitkumar.in/2013/04/09/ruby-motion-conference/</guid><description>&lt;p&gt;The first RubyMotion Conference &lt;a href="http://www.rubymotion.com/conference/#schedule"&gt;#inspect2013&lt;/a&gt; happened in Brussels, Belgium. It was a very well &lt;a href="http://eventifier.co/event/inspect13/"&gt;organized conference&lt;/a&gt;, lots of talented people, awesome speakers, good food and yes &lt;em&gt;Belgian Beer&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+ &lt;img src="https://toamitkumar.in/img/one_man_army-laurent.png" alt=""&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Many thanks to Laurent Sansonetti (&lt;a href="https://twitter.com/lrz"&gt;@lrz&lt;/a&gt;) for organizing the first RM conference.&lt;/p&gt;
+&lt;p&gt;The general &lt;a href="https://gist.github.com/ryansobol/5276501"&gt;gist&lt;/a&gt; of what happened there. Below are my observations and opinions.&lt;/p&gt;
+&lt;h2 id="what-i-saw-at-inspect2013---rubymotion-conference"&gt;What I saw at #inspect2013 - RubyMotion conference?&lt;/h2&gt;
+&lt;p&gt;For people who don’t know about RubyMotion:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.rubymotion.com/developer-center/"&gt;About RubyMotion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rubysource.com/laurent-sansonetti-on-rubymotion-internals/"&gt;http://rubysource.com/laurent-sansonetti-on-rubymotion-internals/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://motioncasts.tv/"&gt;http://motioncasts.tv/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vimeo.com/61255647"&gt;https://vimeo.com/61255647&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="observationsopinions"&gt;Observations/Opinions:&lt;/h2&gt;
+&lt;h3 id="the-community"&gt;The Community:&lt;/h3&gt;
+&lt;p&gt;Community plays a very important role in the success of Open Source Software. Even though RM is licensed, it has blessings from Ruby Community.&lt;/p&gt;</description></item></channel></rss>
