@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Product Management on Amit Kumar</title><link>https://toamitkumar.in/tags/product-management/</link><description>Recent content in Product Management on Amit Kumar</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://toamitkumar.in/tags/product-management/index.xml" rel="self" type="application/rss+xml"/><item><title>The PM Role in the Agentic AI World</title><link>https://toamitkumar.in/post/2026-02-28-pm-role-in-agentic-ai-world/</link><pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate><guid>https://toamitkumar.in/post/2026-02-28-pm-role-in-agentic-ai-world/</guid><description>&lt;h2 id="the-core-transformation-from-translator-to-problem-shaper"&gt;The Core Transformation: From Translator to Problem Shaper&lt;/h2&gt;
 &lt;p&gt;The translation layer between customers and engineers is compressing. When agents can convert well-formed problems into working code, PMs shift from writing specs for engineers to forming intent clearly enough that agents can act directly. &lt;strong&gt;The spec is becoming the product.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+ &lt;img src="https://toamitkumar.in/img/pm-workflow-evolution.svg" alt="PM Workflow Evolution"&gt;
+
+
+&lt;em&gt;Traditional PM workflow (weeks) vs. Agentic PM workflow (hours)&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id="the-new-pm-skillset"&gt;The New PM Skillset&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;1. Problem Shaping (The Primary Skill)&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Take ambiguous customer pain and shape it into something agents can act on&lt;/li&gt;
-&lt;li&gt;Identify constraints that actually matter&lt;/li&gt;
-&lt;li&gt;Articulate what success looks like concretely&lt;/li&gt;
-&lt;li&gt;Hold ambiguity longer—explore the solution space before collapsing to a single approach&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;2. Context Curation (The Hidden Skill)&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;1. Problem Shaping (The Primary Skill)&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>
