@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Refactor vs Rewrite on Amit Kumar</title>
-    <link>http://localhost:1313/tags/refactor-vs-rewrite/</link>
+    <link>https://toamitkumar.in/tags/refactor-vs-rewrite/</link>
     <description>Recent content in Refactor vs Rewrite on Amit Kumar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/refactor-vs-rewrite/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://toamitkumar.in/tags/refactor-vs-rewrite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Re-Engineer v/s Rewrite</title>
-      <link>http://localhost:1313/2021/11/24/reengineer-vs-rewrite/</link>
+      <link>https://toamitkumar.in/2021/11/24/reengineer-vs-rewrite/</link>
       <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2021/11/24/reengineer-vs-rewrite/</guid>
+      <guid>https://toamitkumar.in/2021/11/24/reengineer-vs-rewrite/</guid>
       <description>&lt;p&gt;We are engineers (can be safely generalised to humans), who at heart enjoy &lt;strong&gt;building not extending/enhancing/improving&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Disclaimer: doesn&amp;rsquo;t mean we don&amp;rsquo;t enjoy extending/enhancing. I strongly believe in the philosophy of &amp;ndash; &lt;strong&gt;You touch it, you improve it!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This is driven by the fact - programmers think old code is messy as &lt;a href=&#34;https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/&#34;&gt;Joel Spolsky&lt;/a&gt; writes &amp;ndash; It’s harder to read code than to write it&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Having said that, programmers use tonne of external libraries &amp;amp; modules to avoid re-inventing the wheel. And yet, if you ask them about the code he/she has inherited, the answer would be a mix of:&lt;/p&gt;</description>
     </item>
   </channel>
